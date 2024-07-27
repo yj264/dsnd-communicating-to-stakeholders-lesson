@@ -1,39 +1,40 @@
-# Purpose of This Repo
 
-This repo is meant to be used to keep things organized during content development and act as the source of truth for all exercises related to this content.
+### Table of Contents
 
-## Environment Requirements and Installation
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
-Fill out the requirements.txt file and describe all dependencies for students to be able to install and run all dependencies for the entire repository.  Add local installation instructions for students. Optionally, add and explain any additional requirements and dependencies (datasets, databases, operating system packages or resources) in this readme file. 
-## Folder Structure
+## Installation <a name="installation"></a>
 
-This repo contains a folder for each `exercise`.
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
 
-Example
-```
-exercise-1-hello
-exercise-2-world
-exercise-3-foo
-exercise-4-bar
-```
+## Project Motivation<a name="motivation"></a>
 
-Each `exercise` folder is named using the naming convention of `exercise-#-name-of-exercise`.
+For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
 
-Example
-```
-exercise-1-hello
-```
+1. How other developers suggested breaking into the field (what education to pursue)?
+2. What factors about an individual contributed to salary?
+3. How bias played a role in the suggestions of developers for how to break into the field?
+4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
+5. How were bootcamps assisting with increasing diversity in tech careers?
 
-Five exercises folders have been provided as a template; However, you may need to add more or possibly use less depending on what is needed.
+The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
 
-If you require an additional exercise folder, you can make a copy of the folder and paste it into the root directory.
 
-### Exercises Folder
+## File Descriptions <a name="files"></a>
 
-Each `exercise` folder should contain all files and instructions necessary for the exercises along with the solution. The solutions for these exercises will be shared with students. See the `README` in the `exercises` folders for information about folder structure.
+There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
 
-### Environment Requirements and Installation
+There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
 
-Fill out the requirements.txt file and note all package dependencies.  Optionally add and explain any additional requirements (datasets, databases, operating system packages) in this readme file. 
+## Results<a name="results"></a>
 
+The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+
+Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
 
