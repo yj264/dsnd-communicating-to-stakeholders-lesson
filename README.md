@@ -7,13 +7,6 @@
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
-BootcampStats.ipynb: An analysis of bootcamp grads in terms of job placement and salary.
-
-HowToBreakIntoTheField.ipynb: An analysis of how to become a software developer.
-
-Salary.ipynb: An analysis of the variables that are related to salary and job satisfaction.
-
-Salary_ML.py: A python script that builds a Linear Regression model to predict salary.
 
 ## Installation <a name="installation"></a>
 
@@ -37,6 +30,14 @@ The full set of files related to this course are owned by Udacity, so they are n
 There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
 
 There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+
+BootcampStats.ipynb: An analysis of bootcamp grads in terms of job placement and salary.
+
+HowToBreakIntoTheField.ipynb: An analysis of how to become a software developer.
+
+Salary.ipynb: An analysis of the variables that are related to salary and job satisfaction.
+
+Salary_ML.py: A python script that builds a Linear Regression model to predict salary.
 
 ## Results<a name="results"></a>
 
