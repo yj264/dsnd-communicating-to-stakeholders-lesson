@@ -7,6 +7,14 @@
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
+BootcampStats.ipynb: An analysis of bootcamp grads in terms of job placement and salary.
+
+HowToBreakIntoTheField.ipynb: An analysis of how to become a software developer.
+
+Salary.ipynb: An analysis of the variables that are related to salary and job satisfaction.
+
+Salary_ML.py: A python script that builds a Linear Regression model to predict salary.
+
 ## Installation <a name="installation"></a>
 
 There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
